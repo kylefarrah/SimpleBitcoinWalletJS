@@ -20,7 +20,7 @@ while (!foundPrivateKey) {
 console.log('Private: ' + privateKey.toString("hex"));
 
 let keys = ecdsa.keyFromPrivate(privateKey);
-let publicKey = keys.getPublic("hex");privateKey
+let publicKey = keys.getPublic("hex");
 
 console.log('Public: ' + publicKey);
 
